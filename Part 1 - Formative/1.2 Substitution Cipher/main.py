@@ -1,9 +1,10 @@
 # Read the instructions to see what you need to do here!
 
 alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-
+text = "HELLOWORLD"
 
 def sub_encode(text, codebet):
+
     return ""
 
 

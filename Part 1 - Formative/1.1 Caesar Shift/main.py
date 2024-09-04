@@ -1,10 +1,16 @@
 # Read the instructions to see what you need to do here!
 
 alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+text = "HELLOWORLD"
+
 
 
 def caesar_encode(text, n):
-    return ""
+    new_str = ""
+    for let in text:
+        index = alpha.index(let)
+        new_str += alpha[(index) % len(alpha)]
+    return new_str
 
 
 def caesar_decode(text, n):
